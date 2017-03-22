@@ -13,6 +13,7 @@
 		6C68F3DA1E82B898000FE9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C68F3D91E82B898000FE9E9 /* Assets.xcassets */; };
 		6C68F3DD1E82B898000FE9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C68F3DB1E82B898000FE9E9 /* LaunchScreen.storyboard */; };
 		6C68F3E81E82B899000FE9E9 /* NewNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C68F3E71E82B899000FE9E9 /* NewNotificationsTests.swift */; };
+		6C68F3F31E82C500000FE9E9 /* rick_grimes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6C68F3F21E82C500000FE9E9 /* rick_grimes.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6C68F3E31E82B899000FE9E9 /* NewNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C68F3E71E82B899000FE9E9 /* NewNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotificationsTests.swift; sourceTree = "<group>"; };
 		6C68F3E91E82B899000FE9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C68F3F21E82C500000FE9E9 /* rick_grimes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rick_grimes.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				6C68F3D41E82B898000FE9E9 /* ViewController.swift */,
 				6C68F3D61E82B898000FE9E9 /* Main.storyboard */,
 				6C68F3D91E82B898000FE9E9 /* Assets.xcassets */,
+				6C68F3F21E82C500000FE9E9 /* rick_grimes.gif */,
 				6C68F3DB1E82B898000FE9E9 /* LaunchScreen.storyboard */,
 				6C68F3DE1E82B898000FE9E9 /* Info.plist */,
 			);
@@ -181,6 +184,7 @@
 			files = (
 				6C68F3DD1E82B898000FE9E9 /* LaunchScreen.storyboard in Resources */,
 				6C68F3DA1E82B898000FE9E9 /* Assets.xcassets in Resources */,
+				6C68F3F31E82C500000FE9E9 /* rick_grimes.gif in Resources */,
 				6C68F3D81E82B898000FE9E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
