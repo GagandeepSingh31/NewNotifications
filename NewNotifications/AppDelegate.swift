@@ -19,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         UNUserNotificationCenter.current().delegate = self
+        
+        //Calling the func we created to call the content notification
+        configureUserNotification()
+        
         return true
     }
 
@@ -42,6 +46,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    private func configureUserNotification() {
+        let category = UNNotificationCategory(identifier: "myNotificationCategory", actions: [], intentIdentifiers:[], options:[])
+        UNUserNotificationCenter.current().setNotificationCategories([category])
     }
 
 
